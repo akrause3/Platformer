@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/Users/alan/Desktop/CompSci/Game/src/Entities/Player.java</file>
+            <file>file:/D:/Users/alan/Desktop/CompSci/Game/src/input/KeyInput.java</file>
+            <file>file:/D:/Users/alan/Desktop/CompSci/Game/src/Rendering/UI/Button.java</file>
+            <file>file:/D:/Users/alan/Desktop/CompSci/Game/src/Rendering/textures/Texture.java</file>
+            <file>file:/D:/Users/alan/Desktop/CompSci/Game/src/states/GameState.java</file>
+            <file>file:/D:/Users/alan/Desktop/CompSci/Game/src/game/Game.java</file>
+            <file>file:/D:/Users/alan/Desktop/CompSci/Game/src/states/StateManager.java</file>
+            <file>file:/D:/Users/alan/Desktop/CompSci/Game/src/Rendering/textures/Sprite.java</file>
+            <file>file:/D:/Users/alan/Desktop/CompSci/Game/src/states/MenuState.java</file>
+            <file>file:/D:/Users/alan/Desktop/CompSci/Game/src/Entities/Entity.java</file>
+            <file>file:/D:/Users/alan/Desktop/CompSci/Game/src/Entities/Mob.java</file>
+        </group>
+    </open-files>
+</project-private>
