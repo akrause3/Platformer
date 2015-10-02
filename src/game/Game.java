@@ -133,7 +133,7 @@ public class Game extends Canvas implements Runnable{
     
 
     public static void main(String[] args) {
-        Game game = new Game();
+        final Game game = new Game();
         JFrame frame = new JFrame(TITLE);
         frame.add(game);
         frame.setSize(WIDTH, HEIGHT);

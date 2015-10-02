@@ -24,7 +24,7 @@ public abstract class Entity {
     public abstract void tick();
     
     public void render(Graphics2D g){
-        sprite.render(g,x,y);
+        sprite.render(g,x,y,);
         if(Game.DEBUG){
         g.setColor(Color.RED);
         g.draw(getTop());

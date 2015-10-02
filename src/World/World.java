@@ -14,6 +14,7 @@ public class World {
     private int width;
     private int height;
     private int[] pixels;
+    private Player player;
     
     public World(String name, GameState state){
         BufferedImage image = null;
@@ -32,12 +33,18 @@ public class World {
             for(int x = 0; x<width; x++){
                 int id = pixels[x + y * width];
                 if(id == 0xFF0000FF)
-                   new Player(new Sprite("test"),x*32,y*32, state);
+                   player = new Player(new Sprite("test"),x*32,y*32, state);
                 else if(Tile.getFromID(id)!= null)
                     state.addTile(new Tile(id,x,y));
                 
             }
         }
     }
+
+    public Player getPlayer() {
+        return player;
+    }
+    
+    
     
 }

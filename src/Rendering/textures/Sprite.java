@@ -1,17 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Rendering.textures;
 
+import Entities.Camera;
 import java.awt.Graphics;
 import java.awt.image.BufferedImage;
 
-/**
- *
- * @author alan
- */
 public class Sprite {
     
 
@@ -27,9 +19,11 @@ public class Sprite {
         image = tex.getImage();
     }
     
-    public void render(Graphics g, double x, double y){
-        if(image != null)
+    public void render(Graphics g, double x, double y , Camera c){
+        if(image != null){
         g.drawImage(image, (int)x, (int) y, null);
+        g.translate(c.getX(), c.getY());
+        }
     }
     
     public int getWidth(){
